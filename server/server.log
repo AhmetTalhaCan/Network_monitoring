@@ -1,0 +1,632 @@
+2025-03-09 02:23:46,572 - WARNING - cpu eksik!
+2025-03-09 02:23:46,572 - INFO - 192.168.101.186 - - [09/Mar/2025 02:23:46] "[31m[1mPOST /receive_device_info HTTP/1.1[0m" 400 -
+2025-03-09 02:25:53,717 - WARNING - cpu eksik!
+2025-03-09 02:25:53,717 - INFO - 192.168.101.186 - - [09/Mar/2025 02:25:53] "[31m[1mPOST /receive_device_info HTTP/1.1[0m" 400 -
+2025-03-09 02:26:53,326 - WARNING - cpu eksik!
+2025-03-09 02:26:53,326 - INFO - 192.168.101.186 - - [09/Mar/2025 02:26:53] "[31m[1mPOST /receive_device_info HTTP/1.1[0m" 400 -
+2025-03-09 02:27:13,839 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:27:13,862 - INFO -  * Restarting with stat
+2025-03-09 02:27:14,107 - WARNING -  * Debugger is active!
+2025-03-09 02:27:14,111 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:28:20,951 - WARNING - cpu eksik!
+2025-03-09 02:28:20,951 - INFO - 192.168.101.186 - - [09/Mar/2025 02:28:20] "[31m[1mPOST /receive_device_info HTTP/1.1[0m" 400 -
+2025-03-09 02:29:49,545 - WARNING - cpu eksik!
+2025-03-09 02:29:49,545 - INFO - 192.168.101.186 - - [09/Mar/2025 02:29:49] "[31m[1mPOST /receive_device_info HTTP/1.1[0m" 400 -
+2025-03-09 02:31:17,851 - WARNING - cpu eksik!
+2025-03-09 02:31:17,851 - INFO - 192.168.101.186 - - [09/Mar/2025 02:31:17] "[31m[1mPOST /receive_device_info HTTP/1.1[0m" 400 -
+2025-03-09 02:31:29,668 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:31:29,690 - INFO -  * Restarting with stat
+2025-03-09 02:31:29,911 - WARNING -  * Debugger is active!
+2025-03-09 02:31:29,915 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:32:12,335 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 02:32:12,335 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 02:32:12,337 - INFO -  * Restarting with stat
+2025-03-09 02:32:12,568 - WARNING -  * Debugger is active!
+2025-03-09 02:32:12,573 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:32:58,264 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:32:58,265 - INFO - 192.168.101.186 - - [09/Mar/2025 02:32:58] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:34:08,106 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 02:34:08,107 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 02:34:08,109 - INFO -  * Restarting with stat
+2025-03-09 02:34:08,346 - WARNING -  * Debugger is active!
+2025-03-09 02:34:08,350 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:34:47,150 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:34:47,151 - INFO - 192.168.101.186 - - [09/Mar/2025 02:34:47] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:36:15,632 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:36:15,632 - INFO - 192.168.101.186 - - [09/Mar/2025 02:36:15] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:37:29,792 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:37:29,818 - INFO -  * Restarting with stat
+2025-03-09 02:37:30,068 - WARNING -  * Debugger is active!
+2025-03-09 02:37:30,072 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:37:43,378 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:37:43,379 - INFO - 192.168.101.186 - - [09/Mar/2025 02:37:43] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:39:10,294 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:39:10,317 - INFO -  * Restarting with stat
+2025-03-09 02:39:10,584 - WARNING -  * Debugger is active!
+2025-03-09 02:39:10,588 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:39:11,907 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:39:11,907 - INFO - 192.168.101.186 - - [09/Mar/2025 02:39:11] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:39:34,645 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:39:34,671 - INFO -  * Restarting with stat
+2025-03-09 02:39:34,946 - WARNING -  * Debugger is active!
+2025-03-09 02:39:34,951 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:40:40,930 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:40:40,930 - INFO - 192.168.101.186 - - [09/Mar/2025 02:40:40] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:41:59,806 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 02:41:59,806 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 02:41:59,810 - INFO -  * Restarting with stat
+2025-03-09 02:42:00,041 - WARNING -  * Debugger is active!
+2025-03-09 02:42:00,045 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:42:08,651 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:42:08,651 - INFO - 192.168.101.186 - - [09/Mar/2025 02:42:08] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:43:37,135 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:43:37,135 - INFO - 192.168.101.186 - - [09/Mar/2025 02:43:37] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:43:55,317 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:43:55,345 - INFO -  * Restarting with stat
+2025-03-09 02:43:59,540 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 02:43:59,540 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 02:43:59,543 - INFO -  * Restarting with stat
+2025-03-09 02:43:59,765 - WARNING -  * Debugger is active!
+2025-03-09 02:43:59,770 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:44:45,877 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:44:45,908 - INFO -  * Restarting with stat
+2025-03-09 02:44:51,824 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 02:44:51,824 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 02:44:51,827 - INFO -  * Restarting with stat
+2025-03-09 02:44:52,062 - WARNING -  * Debugger is active!
+2025-03-09 02:44:52,066 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:45:05,263 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:45:05,263 - INFO - 192.168.101.186 - - [09/Mar/2025 02:45:05] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:46:07,258 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:46:07,336 - INFO -  * Restarting with stat
+2025-03-09 02:46:07,623 - WARNING -  * Debugger is active!
+2025-03-09 02:46:07,627 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:46:11,646 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:46:11,668 - INFO -  * Restarting with stat
+2025-03-09 02:46:11,899 - WARNING -  * Debugger is active!
+2025-03-09 02:46:11,904 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:46:15,978 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 02:46:15,978 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 02:46:15,981 - INFO -  * Restarting with stat
+2025-03-09 02:46:16,213 - WARNING -  * Debugger is active!
+2025-03-09 02:46:16,217 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:46:32,536 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:46:32,536 - INFO - 192.168.101.186 - - [09/Mar/2025 02:46:32] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:47:53,432 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:47:53,456 - INFO -  * Restarting with stat
+2025-03-09 02:47:53,717 - WARNING -  * Debugger is active!
+2025-03-09 02:47:53,721 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:48:00,904 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:48:00,904 - INFO - 192.168.101.186 - - [09/Mar/2025 02:48:00] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:48:20,168 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 02:48:20,168 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 02:48:20,172 - INFO -  * Restarting with stat
+2025-03-09 02:48:20,392 - WARNING -  * Debugger is active!
+2025-03-09 02:48:20,396 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:49:29,498 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:49:29,498 - INFO - 192.168.101.186 - - [09/Mar/2025 02:49:29] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:49:34,559 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:49:34,583 - INFO -  * Restarting with stat
+2025-03-09 02:49:34,855 - WARNING -  * Debugger is active!
+2025-03-09 02:49:34,860 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:49:39,131 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 02:49:39,131 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 02:49:39,134 - INFO -  * Restarting with stat
+2025-03-09 02:49:39,356 - WARNING -  * Debugger is active!
+2025-03-09 02:49:39,360 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:50:58,085 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:50:58,085 - INFO - 192.168.101.186 - - [09/Mar/2025 02:50:58] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:52:26,686 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:52:26,686 - INFO - 192.168.101.186 - - [09/Mar/2025 02:52:26] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:53:04,810 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:53:04,840 - INFO -  * Restarting with stat
+2025-03-09 02:53:05,124 - WARNING -  * Debugger is active!
+2025-03-09 02:53:05,128 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:53:13,252 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 02:53:13,253 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 02:53:13,255 - INFO -  * Restarting with stat
+2025-03-09 02:53:13,473 - WARNING -  * Debugger is active!
+2025-03-09 02:53:13,477 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:53:55,317 - ERROR - Beklenmeyen hata: module 'mysql.connector' has no attribute 'connector'
+2025-03-09 02:53:55,318 - INFO - 192.168.101.186 - - [09/Mar/2025 02:53:55] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:54:44,692 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:54:44,713 - INFO -  * Restarting with stat
+2025-03-09 02:54:44,930 - WARNING -  * Debugger is active!
+2025-03-09 02:54:44,935 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:55:23,006 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:55:23,031 - INFO -  * Restarting with stat
+2025-03-09 02:55:23,298 - WARNING -  * Debugger is active!
+2025-03-09 02:55:23,302 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:55:23,315 - INFO - 192.168.101.186 - - [09/Mar/2025 02:55:23] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:55:45,362 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 02:55:45,390 - INFO -  * Restarting with stat
+2025-03-09 02:55:45,663 - WARNING -  * Debugger is active!
+2025-03-09 02:55:45,668 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:55:58,539 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 02:55:58,539 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 02:55:58,541 - INFO -  * Restarting with stat
+2025-03-09 02:55:58,762 - WARNING -  * Debugger is active!
+2025-03-09 02:55:58,767 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 02:56:51,549 - ERROR - Veritabaný baðlantý hatasý: Authentication plugin 'caching_sha2_password' is not supported
+2025-03-09 02:56:51,554 - INFO - 192.168.101.186 - - [09/Mar/2025 02:56:51] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 02:57:53,202 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 02:57:53,202 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 02:57:53,205 - INFO -  * Restarting with stat
+2025-03-09 02:57:53,418 - WARNING -  * Debugger is active!
+2025-03-09 02:57:53,422 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:07:04,744 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:07:04,744 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:07:04,746 - INFO -  * Restarting with stat
+2025-03-09 03:07:04,971 - WARNING -  * Debugger is active!
+2025-03-09 03:07:04,976 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:07:44,566 - ERROR - Veritabaný baðlantý hatasý: Authentication plugin 'caching_sha2_password' is not supported
+2025-03-09 03:07:44,572 - INFO - 192.168.101.186 - - [09/Mar/2025 03:07:44] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 03:09:01,490 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:09:01,491 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:09:01,492 - INFO -  * Restarting with stat
+2025-03-09 03:09:01,723 - WARNING -  * Debugger is active!
+2025-03-09 03:09:01,725 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:09:40,611 - INFO - 192.168.101.186 - - [09/Mar/2025 03:09:40] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 03:12:35,193 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:12:35,193 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:12:35,194 - INFO -  * Restarting with stat
+2025-03-09 03:12:35,417 - WARNING -  * Debugger is active!
+2025-03-09 03:12:35,420 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:13:28,168 - INFO - 192.168.101.186 - - [09/Mar/2025 03:13:28] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:14:57,103 - INFO - 192.168.101.186 - - [09/Mar/2025 03:14:57] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:15:07,788 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:15:07,816 - INFO -  * Restarting with stat
+2025-03-09 03:15:08,115 - WARNING -  * Debugger is active!
+2025-03-09 03:15:08,118 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:15:26,276 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:15:26,276 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:15:26,277 - INFO -  * Restarting with stat
+2025-03-09 03:15:26,506 - WARNING -  * Debugger is active!
+2025-03-09 03:15:26,508 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:16:25,777 - INFO - 192.168.101.186 - - [09/Mar/2025 03:16:25] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:17:54,345 - INFO - 192.168.101.186 - - [09/Mar/2025 03:17:54] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:19:04,000 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:19:04,028 - INFO -  * Restarting with stat
+2025-03-09 03:19:04,319 - WARNING -  * Debugger is active!
+2025-03-09 03:19:04,322 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:19:22,325 - INFO - 192.168.101.186 - - [09/Mar/2025 03:19:22] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:20:02,455 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:20:02,482 - INFO -  * Restarting with stat
+2025-03-09 03:20:02,742 - WARNING -  * Debugger is active!
+2025-03-09 03:20:02,744 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:20:14,008 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:20:14,008 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:20:14,009 - INFO -  * Restarting with stat
+2025-03-09 03:20:14,237 - WARNING -  * Debugger is active!
+2025-03-09 03:20:14,239 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:20:46,356 - INFO - 192.168.101.186 - - [09/Mar/2025 03:20:46] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:21:37,421 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:21:37,446 - INFO -  * Restarting with stat
+2025-03-09 03:21:37,716 - WARNING -  * Debugger is active!
+2025-03-09 03:21:37,718 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:21:43,683 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:21:43,683 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:21:43,684 - INFO -  * Restarting with stat
+2025-03-09 03:21:43,911 - WARNING -  * Debugger is active!
+2025-03-09 03:21:43,914 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:22:15,733 - INFO - 192.168.101.186 - - [09/Mar/2025 03:22:15] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:23:44,121 - INFO - 192.168.101.186 - - [09/Mar/2025 03:23:44] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:25:12,811 - INFO - 192.168.101.186 - - [09/Mar/2025 03:25:12] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:26:42,057 - INFO - 192.168.101.186 - - [09/Mar/2025 03:26:42] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:28:10,415 - INFO - 192.168.101.186 - - [09/Mar/2025 03:28:10] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:29:38,792 - INFO - 192.168.101.186 - - [09/Mar/2025 03:29:38] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:30:48,114 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:30:48,146 - INFO -  * Restarting with stat
+2025-03-09 03:30:48,467 - WARNING -  * Debugger is active!
+2025-03-09 03:30:48,470 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:31:09,356 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:31:09,356 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:31:09,357 - INFO -  * Restarting with stat
+2025-03-09 03:31:09,594 - WARNING -  * Debugger is active!
+2025-03-09 03:31:09,597 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:31:25,496 - INFO - 192.168.101.186 - - [09/Mar/2025 03:31:25] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:32:53,707 - INFO - 192.168.101.186 - - [09/Mar/2025 03:32:53] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:34:22,032 - INFO - 192.168.101.186 - - [09/Mar/2025 03:34:22] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:34:25,039 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:34:25,064 - INFO -  * Restarting with stat
+2025-03-09 03:34:25,362 - WARNING -  * Debugger is active!
+2025-03-09 03:34:25,365 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:35:53,590 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:35:53,590 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:35:53,591 - INFO -  * Restarting with stat
+2025-03-09 03:35:53,822 - WARNING -  * Debugger is active!
+2025-03-09 03:35:53,824 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:36:27,574 - INFO - 192.168.101.186 - - [09/Mar/2025 03:36:27] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:37:55,112 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:37:55,143 - INFO -  * Restarting with stat
+2025-03-09 03:37:55,441 - WARNING -  * Debugger is active!
+2025-03-09 03:37:55,444 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:38:01,424 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:38:01,424 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:38:01,425 - INFO -  * Restarting with stat
+2025-03-09 03:38:01,651 - WARNING -  * Debugger is active!
+2025-03-09 03:38:01,653 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:39:26,649 - INFO - 192.168.101.186 - - [09/Mar/2025 03:39:26] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:40:55,509 - INFO - 192.168.101.186 - - [09/Mar/2025 03:40:55] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:42:23,909 - INFO - 192.168.101.186 - - [09/Mar/2025 03:42:23] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:43:51,766 - INFO - 192.168.101.186 - - [09/Mar/2025 03:43:51] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:44:29,482 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:44:29,507 - INFO -  * Restarting with stat
+2025-03-09 03:44:29,781 - WARNING -  * Debugger is active!
+2025-03-09 03:44:29,784 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:44:32,795 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:44:32,820 - INFO -  * Restarting with stat
+2025-03-09 03:44:33,090 - WARNING -  * Debugger is active!
+2025-03-09 03:44:33,093 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:45:07,260 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:45:07,260 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:45:07,261 - INFO -  * Restarting with stat
+2025-03-09 03:45:07,487 - WARNING -  * Debugger is active!
+2025-03-09 03:45:07,490 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:45:41,446 - INFO - 192.168.101.186 - - [09/Mar/2025 03:45:41] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 03:46:29,526 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:46:29,527 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:46:29,527 - INFO -  * Restarting with stat
+2025-03-09 03:46:29,765 - WARNING -  * Debugger is active!
+2025-03-09 03:46:29,768 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:47:09,884 - INFO - 192.168.101.186 - - [09/Mar/2025 03:47:09] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 03:47:50,978 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:47:51,012 - INFO -  * Restarting with stat
+2025-03-09 03:47:51,258 - WARNING -  * Debugger is active!
+2025-03-09 03:47:51,261 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:47:52,270 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:47:52,292 - INFO -  * Restarting with stat
+2025-03-09 03:47:52,574 - WARNING -  * Debugger is active!
+2025-03-09 03:47:52,577 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:47:58,682 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:47:58,682 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:47:58,683 - INFO -  * Restarting with stat
+2025-03-09 03:47:58,918 - WARNING -  * Debugger is active!
+2025-03-09 03:47:58,920 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:48:38,867 - INFO - 192.168.101.186 - - [09/Mar/2025 03:48:38] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 03:48:51,038 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:48:51,071 - INFO -  * Restarting with stat
+2025-03-09 03:48:51,312 - WARNING -  * Debugger is active!
+2025-03-09 03:48:51,314 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:48:54,328 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 03:48:54,354 - INFO -  * Restarting with stat
+2025-03-09 03:48:54,599 - WARNING -  * Debugger is active!
+2025-03-09 03:48:54,601 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:49:12,138 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:49:12,138 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:49:12,139 - INFO -  * Restarting with stat
+2025-03-09 03:49:12,372 - WARNING -  * Debugger is active!
+2025-03-09 03:49:12,375 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:50:11,399 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 03:50:11,399 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 03:50:11,400 - INFO -  * Restarting with stat
+2025-03-09 03:50:11,655 - WARNING -  * Debugger is active!
+2025-03-09 03:50:11,658 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 03:50:46,180 - INFO - 192.168.101.186 - - [09/Mar/2025 03:50:46] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:52:15,232 - INFO - 192.168.101.186 - - [09/Mar/2025 03:52:15] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:53:44,551 - INFO - 192.168.101.186 - - [09/Mar/2025 03:53:44] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:55:13,556 - INFO - 192.168.101.186 - - [09/Mar/2025 03:55:13] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:56:43,091 - INFO - 192.168.101.186 - - [09/Mar/2025 03:56:43] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 03:58:13,339 - INFO - 192.168.101.186 - - [09/Mar/2025 03:58:13] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:00:57,273 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 04:00:57,273 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 04:00:57,274 - INFO -  * Restarting with stat
+2025-03-09 04:00:57,504 - WARNING -  * Debugger is active!
+2025-03-09 04:00:57,506 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:01:13,660 - INFO - 192.168.101.186 - - [09/Mar/2025 04:01:13] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:02:42,896 - INFO - 192.168.101.186 - - [09/Mar/2025 04:02:42] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:04:10,803 - INFO - 192.168.101.186 - - [09/Mar/2025 04:04:10] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:05:40,171 - INFO - 192.168.101.186 - - [09/Mar/2025 04:05:40] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:06:20,358 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 04:06:20,381 - INFO -  * Restarting with stat
+2025-03-09 04:06:20,674 - WARNING -  * Debugger is active!
+2025-03-09 04:06:20,677 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:06:32,645 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 04:06:32,645 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 04:06:32,646 - INFO -  * Restarting with stat
+2025-03-09 04:06:32,870 - WARNING -  * Debugger is active!
+2025-03-09 04:06:32,872 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:07:08,301 - INFO - 192.168.101.186 - - [09/Mar/2025 04:07:08] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:08:16,110 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 04:08:16,139 - INFO -  * Restarting with stat
+2025-03-09 04:08:16,430 - WARNING -  * Debugger is active!
+2025-03-09 04:08:16,432 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:08:35,477 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 04:08:35,500 - INFO -  * Restarting with stat
+2025-03-09 04:08:35,753 - WARNING -  * Debugger is active!
+2025-03-09 04:08:35,755 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:08:37,178 - INFO - 192.168.101.186 - - [09/Mar/2025 04:08:37] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:08:54,799 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 04:08:54,830 - INFO -  * Restarting with stat
+2025-03-09 04:08:55,106 - WARNING -  * Debugger is active!
+2025-03-09 04:08:55,109 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:09:10,895 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 04:09:10,895 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 04:09:10,896 - INFO -  * Restarting with stat
+2025-03-09 04:09:11,121 - WARNING -  * Debugger is active!
+2025-03-09 04:09:11,124 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:10:06,593 - INFO - 192.168.101.186 - - [09/Mar/2025 04:10:06] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:10:25,320 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 04:10:36,842 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 04:10:36,842 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 04:10:36,843 - INFO -  * Restarting with stat
+2025-03-09 04:10:37,074 - WARNING -  * Debugger is active!
+2025-03-09 04:10:37,076 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:11:35,993 - INFO - 192.168.101.186 - - [09/Mar/2025 04:11:35] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:13:04,431 - INFO - 192.168.101.186 - - [09/Mar/2025 04:13:04] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:14:33,169 - INFO - 192.168.101.186 - - [09/Mar/2025 04:14:33] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:16:02,417 - INFO - 192.168.101.186 - - [09/Mar/2025 04:16:02] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:17:30,016 - INFO - 192.168.101.186 - - [09/Mar/2025 04:17:30] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:18:56,750 - INFO - 192.168.101.186 - - [09/Mar/2025 04:18:56] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:20:24,551 - INFO - 192.168.101.186 - - [09/Mar/2025 04:20:24] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:21:50,991 - INFO - 192.168.101.186 - - [09/Mar/2025 04:21:50] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:23:21,610 - INFO - 192.168.101.186 - - [09/Mar/2025 04:23:21] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:24:50,470 - INFO - 192.168.101.186 - - [09/Mar/2025 04:24:50] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:26:17,894 - INFO - 192.168.101.186 - - [09/Mar/2025 04:26:17] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:27:45,460 - INFO - 192.168.101.186 - - [09/Mar/2025 04:27:45] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:29:12,511 - INFO - 192.168.101.186 - - [09/Mar/2025 04:29:12] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:30:40,861 - INFO - 192.168.101.186 - - [09/Mar/2025 04:30:40] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:32:08,304 - INFO - 192.168.101.186 - - [09/Mar/2025 04:32:08] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:33:37,398 - INFO - 192.168.101.186 - - [09/Mar/2025 04:33:37] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:35:04,971 - INFO - 192.168.101.186 - - [09/Mar/2025 04:35:04] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:36:33,930 - INFO - 192.168.101.186 - - [09/Mar/2025 04:36:33] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:38:02,757 - INFO - 192.168.101.186 - - [09/Mar/2025 04:38:02] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:39:31,348 - INFO - 192.168.101.186 - - [09/Mar/2025 04:39:31] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:41:00,124 - INFO - 192.168.101.186 - - [09/Mar/2025 04:41:00] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:42:27,762 - INFO - 192.168.101.186 - - [09/Mar/2025 04:42:27] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:43:56,097 - INFO - 192.168.101.186 - - [09/Mar/2025 04:43:56] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:45:25,837 - INFO - 192.168.101.186 - - [09/Mar/2025 04:45:25] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 04:46:39,480 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 04:46:39,517 - INFO -  * Restarting with stat
+2025-03-09 04:46:39,859 - WARNING -  * Debugger is active!
+2025-03-09 04:46:39,861 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:46:48,950 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 04:46:48,950 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 04:46:48,951 - INFO -  * Restarting with stat
+2025-03-09 04:46:49,190 - WARNING -  * Debugger is active!
+2025-03-09 04:46:49,193 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:46:54,029 - INFO - 192.168.101.186 - - [09/Mar/2025 04:46:54] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 04:48:23,186 - INFO - 192.168.101.186 - - [09/Mar/2025 04:48:23] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 04:49:15,537 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 04:49:15,568 - INFO -  * Restarting with stat
+2025-03-09 04:49:15,840 - WARNING -  * Debugger is active!
+2025-03-09 04:49:15,842 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:49:20,918 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 04:49:20,918 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 04:49:20,919 - INFO -  * Restarting with stat
+2025-03-09 04:49:21,140 - WARNING -  * Debugger is active!
+2025-03-09 04:49:21,142 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:49:52,760 - INFO - 192.168.101.186 - - [09/Mar/2025 04:49:52] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 04:51:21,647 - INFO - 192.168.101.186 - - [09/Mar/2025 04:51:21] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 04:52:50,520 - INFO - 192.168.101.186 - - [09/Mar/2025 04:52:50] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 04:53:23,672 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 04:53:23,699 - INFO -  * Restarting with stat
+2025-03-09 04:53:24,011 - WARNING -  * Debugger is active!
+2025-03-09 04:53:24,015 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:53:29,447 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 04:53:29,447 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 04:53:29,448 - INFO -  * Restarting with stat
+2025-03-09 04:53:29,682 - WARNING -  * Debugger is active!
+2025-03-09 04:53:29,684 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 04:54:18,733 - INFO - 192.168.101.186 - - [09/Mar/2025 04:54:18] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 04:55:47,164 - INFO - 192.168.101.186 - - [09/Mar/2025 04:55:47] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 04:57:14,895 - INFO - 192.168.101.186 - - [09/Mar/2025 04:57:14] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 04:58:42,778 - INFO - 192.168.101.186 - - [09/Mar/2025 04:58:42] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:00:11,299 - INFO - 192.168.101.186 - - [09/Mar/2025 05:00:11] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:00:24,981 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 05:00:24,981 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 05:00:24,982 - INFO -  * Restarting with stat
+2025-03-09 05:00:25,219 - WARNING -  * Debugger is active!
+2025-03-09 05:00:25,221 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 05:01:39,251 - INFO - 192.168.101.186 - - [09/Mar/2025 05:01:39] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:03:08,331 - INFO - 192.168.101.186 - - [09/Mar/2025 05:03:08] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:04:35,433 - INFO - 192.168.101.186 - - [09/Mar/2025 05:04:35] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:06:03,084 - INFO - 192.168.101.186 - - [09/Mar/2025 05:06:03] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:07:31,427 - INFO - 192.168.101.186 - - [09/Mar/2025 05:07:31] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:08:58,978 - INFO - 192.168.101.186 - - [09/Mar/2025 05:08:58] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:10:26,142 - INFO - 192.168.101.186 - - [09/Mar/2025 05:10:26] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:11:54,366 - INFO - 192.168.101.186 - - [09/Mar/2025 05:11:54] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:13:20,755 - INFO - 192.168.101.186 - - [09/Mar/2025 05:13:20] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:14:50,520 - INFO - 192.168.101.186 - - [09/Mar/2025 05:14:50] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:16:18,957 - INFO - 192.168.101.186 - - [09/Mar/2025 05:16:18] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:17:46,046 - INFO - 192.168.101.186 - - [09/Mar/2025 05:17:46] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:19:14,402 - INFO - 192.168.101.186 - - [09/Mar/2025 05:19:14] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:20:42,175 - INFO - 192.168.101.186 - - [09/Mar/2025 05:20:42] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:22:09,365 - INFO - 192.168.101.186 - - [09/Mar/2025 05:22:09] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:23:39,023 - INFO - 192.168.101.186 - - [09/Mar/2025 05:23:39] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:25:06,587 - INFO - 192.168.101.186 - - [09/Mar/2025 05:25:06] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:26:33,851 - INFO - 192.168.101.186 - - [09/Mar/2025 05:26:33] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:28:02,242 - INFO - 192.168.101.186 - - [09/Mar/2025 05:28:02] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:29:30,025 - INFO - 192.168.101.186 - - [09/Mar/2025 05:29:30] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:30:57,493 - INFO - 192.168.101.186 - - [09/Mar/2025 05:30:57] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:32:24,865 - INFO - 192.168.101.186 - - [09/Mar/2025 05:32:24] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:33:52,687 - INFO - 192.168.101.186 - - [09/Mar/2025 05:33:52] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:35:19,352 - INFO - 192.168.101.186 - - [09/Mar/2025 05:35:19] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:36:47,766 - INFO - 192.168.101.186 - - [09/Mar/2025 05:36:47] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:38:15,569 - INFO - 192.168.101.186 - - [09/Mar/2025 05:38:15] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:39:43,850 - INFO - 192.168.101.186 - - [09/Mar/2025 05:39:43] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:41:11,502 - INFO - 192.168.101.186 - - [09/Mar/2025 05:41:11] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:42:39,501 - INFO - 192.168.101.186 - - [09/Mar/2025 05:42:39] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:44:07,509 - INFO - 192.168.101.186 - - [09/Mar/2025 05:44:07] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:45:36,251 - INFO - 192.168.101.186 - - [09/Mar/2025 05:45:36] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:47:04,368 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 05:47:04,471 - INFO -  * Restarting with stat
+2025-03-09 05:47:04,813 - WARNING -  * Debugger is active!
+2025-03-09 05:47:04,815 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 05:47:10,188 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 05:47:10,188 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 05:47:10,189 - INFO -  * Restarting with stat
+2025-03-09 05:47:10,429 - WARNING -  * Debugger is active!
+2025-03-09 05:47:10,431 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 05:48:35,221 - INFO - 192.168.101.186 - - [09/Mar/2025 05:48:35] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:50:04,275 - INFO - 192.168.101.186 - - [09/Mar/2025 05:50:04] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 05:51:05,994 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 05:51:06,025 - INFO -  * Restarting with stat
+2025-03-09 05:51:06,285 - WARNING -  * Debugger is active!
+2025-03-09 05:51:06,287 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 05:51:31,644 - INFO - 192.168.101.186 - - [09/Mar/2025 05:51:31] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 05:52:59,343 - INFO - 192.168.101.186 - - [09/Mar/2025 05:52:59] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 05:54:28,020 - INFO - 192.168.101.186 - - [09/Mar/2025 05:54:28] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 05:55:56,138 - INFO - 192.168.101.186 - - [09/Mar/2025 05:55:56] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 05:57:24,934 - INFO - 192.168.101.186 - - [09/Mar/2025 05:57:24] "POST /receive_device_info HTTP/1.1" 200 -
+2025-03-09 05:58:32,290 - INFO -  * Detected change in 'C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\main.py', reloading
+2025-03-09 05:58:32,326 - INFO -  * Restarting with stat
+2025-03-09 05:58:32,634 - WARNING -  * Debugger is active!
+2025-03-09 05:58:32,637 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 05:59:51,100 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 05:59:51,100 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 05:59:51,101 - INFO -  * Restarting with stat
+2025-03-09 05:59:51,336 - WARNING -  * Debugger is active!
+2025-03-09 05:59:51,338 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 06:00:21,064 - INFO - 192.168.101.186 - - [09/Mar/2025 06:00:21] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:01:49,571 - INFO - 192.168.101.186 - - [09/Mar/2025 06:01:49] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:03:49,743 - INFO - 192.168.101.186 - - [09/Mar/2025 06:03:49] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:07:09,710 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 06:07:09,710 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 06:07:09,711 - INFO -  * Restarting with stat
+2025-03-09 06:07:10,015 - WARNING -  * Debugger is active!
+2025-03-09 06:07:10,017 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 06:07:44,386 - INFO - 192.168.101.186 - - [09/Mar/2025 06:07:44] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:09:12,868 - INFO - 192.168.101.186 - - [09/Mar/2025 06:09:12] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:10:40,344 - INFO - 192.168.101.186 - - [09/Mar/2025 06:10:40] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:12:08,639 - INFO - 192.168.101.186 - - [09/Mar/2025 06:12:08] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:13:36,612 - INFO - 192.168.101.186 - - [09/Mar/2025 06:13:36] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:15:05,390 - INFO - 192.168.101.186 - - [09/Mar/2025 06:15:05] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:16:33,890 - INFO - 192.168.101.186 - - [09/Mar/2025 06:16:33] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:26:08,646 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 06:26:08,646 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 06:26:08,647 - INFO -  * Restarting with stat
+2025-03-09 06:26:08,876 - WARNING -  * Debugger is active!
+2025-03-09 06:26:08,879 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 06:26:41,197 - INFO - 192.168.101.186 - - [09/Mar/2025 06:26:41] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:38:03,014 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 06:38:03,015 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 06:38:03,016 - INFO -  * Restarting with stat
+2025-03-09 06:38:03,236 - WARNING -  * Debugger is active!
+2025-03-09 06:38:03,238 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 06:38:35,930 - INFO - 192.168.101.186 - - [09/Mar/2025 06:38:35] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:40:04,632 - INFO - 192.168.101.186 - - [09/Mar/2025 06:40:04] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:41:32,622 - INFO - 192.168.101.186 - - [09/Mar/2025 06:41:32] "[35m[1mPOST /receive_device_info HTTP/1.1[0m" 500 -
+2025-03-09 06:44:14,820 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.101.186:8080
+2025-03-09 06:44:14,820 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 06:44:14,821 - INFO -  * Restarting with stat
+2025-03-09 06:44:15,045 - WARNING -  * Debugger is active!
+2025-03-09 06:44:15,048 - INFO -  * Debugger PIN: 139-176-854
+2025-03-09 06:44:51,171 - INFO - 192.168.101.186 - - [09/Mar/2025 06:44:51] "POST /receive_device_info HTTP/1.1" 200 -

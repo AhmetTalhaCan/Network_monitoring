@@ -1,0 +1,11 @@
+{
+    "server_host": "0.0.0.0",
+    "server_port": 8080,
+    "db_host": "localhost",
+    "db_port": 3306,
+    "db_user": "root",
+    "db_password": "talhacan41",
+    "db_name": "network_monitoring_db",
+    "log_file": "server.log"
+  }
+  
