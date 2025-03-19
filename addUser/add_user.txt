@@ -1,0 +1,6 @@
+1-Ip Adres
+Get-NetIPAddress | Where-Object {$_.AddressFamily -eq "IPv4"} | Select-Object InterfaceAlias, IPAddress | ConvertTo-Json | Out-File "C:\Users\canta\Desktop\Network_monitoring\addUser\ip.json"
+
+2-Mac Adres
+Get-NetAdapter | Select-Object Name, MacAddress | ConvertTo-Json | Out-File "C:\Users\canta\Desktop\Network_monitoring\addUser\mac.json"
+ 

@@ -1,4 +1,3 @@
 {
-    "server_url": "http://192.168.101.186:8080/receive_device_info",
-    "interval_seconds": 60
+    "server_url": "http://127.0.0.1:8080/receive_device_info"
 }

@@ -11,8 +11,7 @@ from datetime import datetime, timedelta  # timedelta'ı doğru şekilde içe ak
 def load_config():
     config_file = "config.json"
     default_config = {
-        "server_url": "http://192.168.101.186:8080/receive_device_info",  # Sunucu URL'si
-        "interval_seconds": 60,  # Veriyi göndermek için aralık süresi
+        "server_url": "http://127.0.0.1:8080/receive_device_info",  # Sunucu URL'si
         "agent_id": None  # Dinamik olarak belirlenecek
     }
 
@@ -156,10 +155,7 @@ def run_agent(config):
 # Ana program döngüsü
 def main():
     config = load_config()
-
-    while True:
-        run_agent(config)
-        time.sleep(config["interval_seconds"])  # Verileri her aralıkta gönderir
+    run_agent(config)
 
 if __name__ == "__main__":
     main()
