@@ -45,11 +45,11 @@ config = load_config()
 def connect_db():
     try:
         conn = mysql.connect(
-            host=config["db_host"],
-            port=config["db_port"],
-            user=config["db_user"],
-            password=config["db_password"],
-            database=config["db_name"]
+            host="biomrg5uorif5yzexef3-mysql.services.clever-cloud.com",
+            port=3306,
+            user="us7i8fe3s5nxpeoz",
+            password="QvIoI1LDJft3x04qwgbZ",
+            database="biomrg5uorif5yzexef3"
         )
         return conn
     except mysql.Error as e:
