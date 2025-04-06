@@ -12,7 +12,11 @@ logging.basicConfig(filename='server.log', level=logging.INFO, format='%(asctime
 # config.json dosyasını okuma
 def load_config():
     try:
-        with open(r"C:\\Users\\canta\\Desktop\\Network_monitoring\\server\\config.json", "r") as file:
+        # Render veya yerel ortamda çalışacak şekilde dosya yolunu belirleyelim
+        config_path = os.path.join(os.path.dirname(__file__), 'config.json')
+        
+        # config.json dosyasını açma
+        with open(config_path, "r") as file:
             config = json.load(file)
         
         # Yapılandırma dosyasındaki gerekli anahtarların kontrol edilmesi
@@ -32,6 +36,8 @@ def load_config():
     except KeyError as e:
         logging.error(f"Yapılandırma hatası: {e}")
         raise
+
+# Yapılandırmayı yükleyelim
 config = load_config()
 
 # MySQL veritabanına bağlantı
