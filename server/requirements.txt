@@ -2,3 +2,4 @@ flask==2.0.1
 mysql-connector-python==8.0.26
 flask-cors==5.0.1
 psutil==5.8.0
+werkzeug==2.0.3  # Flask ile uyumlu sürüm
