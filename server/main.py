@@ -1,9 +1,10 @@
 import json
 import logging
+import os
 from flask import Flask, request, jsonify
 import mysql.connector as mysql
 from datetime import datetime
-from flask_cors import CORS  # Flask-CORS kütüphanesini içe aktar
+from flask_cors import CORS
 import psutil
 
 # Log ayarları
