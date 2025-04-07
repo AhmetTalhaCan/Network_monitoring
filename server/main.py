@@ -98,7 +98,7 @@ CORS(app)
 
 # POST isteği ile cihaz bilgisi alacak endpoint
 @app.route('/receive_device_info', methods=['POST'])
-def receive_device_info():    
+def receive_device_info():
     try:
         data = request.get_json()  # Gelen JSON verisini al
         print(data)
@@ -117,6 +117,7 @@ def receive_device_info():
         conn = get_db_connection()
         cursor = conn.cursor()
 
+        # MAC adresi ile cihazın olup olmadığını kontrol et
         cursor.execute("SELECT * FROM devices WHERE mac_address = %s", (mac_address,))
         device_exists = cursor.fetchone()
         logging.info(f"device_exists: {device_exists}")
@@ -138,7 +139,7 @@ def receive_device_info():
                 existing_agent_id = result[0]
                 logging.info(f"Mevcut Agent ID: {existing_agent_id}")
 
-            # Diğer bilgiler, örneğin sistem bilgisi, bellek bilgisi, yazılım bilgileri vs. eklenebilir.
+            # Sistem bilgilerini veritabanına ekleyelim
             system_info = data['system_info']
             cursor.execute("""SELECT id FROM system_info WHERE agent_id = %s AND `system` = %s AND node_name = %s
             AND `release` = %s AND version = %s AND machine = %s AND processor = %s""", 
@@ -159,6 +160,12 @@ def receive_device_info():
             else:
                 logging.info("Sistem bilgisi zaten mevcut.")
 
+            # Ek bilgiler eklemek ve commit yapmak için diğer sorgular benzer şekilde yazılabilir.
+            # Diğer bilgiler (memory_info, cpu_info vb.) eklemek için benzer sorguları ekleyin.
+
+        else:
+            logging.warning(f"MAC adresi {mac_address} ile cihaz bulunamadı.")
+
         # Veritabanı bağlantısını kapat
         cursor.close()
         conn.close()
@@ -173,31 +180,6 @@ def receive_device_info():
         logging.error(f"Bilinmeyen bir hata oluştu: {e}")
         return jsonify({"error": "Bilinmeyen bir hata oluştu"}), 500
 
-
-# Sunucuya HTTPS üzerinden veri gönderirken SSL hatalarından kaçınmak için
-@app.route('/send_device_info', methods=['POST'])
-def send_device_info():
-    url = "https://network-monitoring-4jg5.onrender.com/receive_device_info"
-    
-    # SSLContext oluşturuluyor
-    context = create_ssl_context()
-
-    data = {
-        # Göndermek istediğiniz JSON verisini buraya ekleyin
-    }
-
-    # requests için SSLContext ile bağlantı yap
-    try:
-        with requests.Session() as session:
-            adapter = HTTPAdapter(ssl_context=context)
-            session.mount('https://', adapter)
-
-            response = session.post(url, json=data)
-            logging.info(f"Sunucu yanıtı: {response.status_code}, {response.text}")
-            return jsonify({"message": "Veri gönderildi", "status": response.status_code, "response": response.text}), 200
-    except requests.exceptions.RequestException as e:
-        logging.error(f"Sunucuya veri gönderirken hata oluştu: {e}")
-        return jsonify({"error": "Veri gönderilemedi"}), 500
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
