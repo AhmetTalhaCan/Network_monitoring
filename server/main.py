@@ -194,5 +194,5 @@ def send_device_info():
         return jsonify({"error": "Veri gönderilemedi"}), 500
 
 if __name__ == "__main__":
-    app.run(host=config['server_host'], port=config['server_port'], debug=False)
-
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=False, host='0.0.0.0', port=port)
