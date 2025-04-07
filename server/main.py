@@ -2,7 +2,7 @@ import json
 import logging
 import os
 from flask import Flask, request, jsonify
-import mysql.connector as mysql
+import mysql.connector.pooling
 from datetime import datetime
 from flask_cors import CORS
 import psutil
@@ -41,20 +41,16 @@ def load_config():
 # Yapılandırmayı yükleyelim
 config = load_config()
 
-# MySQL veritabanına bağlantı
-def connect_db():
-    try:
-        conn = mysql.connect(
-            host="biomrg5uorif5yzexef3-mysql.services.clever-cloud.com",
-            port=3306,
-            user="us7i8fe3s5nxpeoz",
-            password="QvIoI1LDJft3x04qwgbZ",
-            database="biomrg5uorif5yzexef3"
-        )
-        return conn
-    except mysql.Error as e:
-        logging.error(f"Veritabanı bağlantı hatası: {str(e)}")
-        raise
+# MySQL bağlantı havuzu
+pool = mysql.connector.pooling.MySQLConnectionPool(
+    pool_name="mypool",  # Havuz adı
+    pool_size=5,  # Havuz boyutu (maksimum bağlantı sayısı)
+    host="biomrg5uorif5yzexef3-mysql.services.clever-cloud.com",  # Veritabanı hostu
+    port=3306,  # Veritabanı portu
+    user="us7i8fe3s5nxpeoz",  # Veritabanı kullanıcı adı
+    password="QvIoI1LDJft3x04qwgbZ",  # Veritabanı şifresi
+    database="biomrg5uorif5yzexef3"  # Veritabanı adı
+)
 
 # Ethernet (MAC) adresini almak için
 def get_mac_address():
@@ -95,7 +91,7 @@ def receive_device_info():
             return jsonify({"error": f"'{field}' alanı eksik"}), 400    
 
     # Veritabanına bağlan
-    conn = connect_db()
+    conn = pool.get_connection()
     cursor = conn.cursor()
 
     cursor.execute("SELECT * FROM devices WHERE mac_address = %s", (mac_address,))
@@ -141,22 +137,7 @@ def receive_device_info():
         else:
             print("Sistem bilgisi zaten mevcut.")
 
-        data = request.get_json()  # Gelen JSON verisini al
-        if not data:
-            logging.warning("Boş veri alındı!")
-            return jsonify({"error": "Veri alınamadı"}), 400
-
-        # Gerekli alanları kontrol et
-        required_fields = ["system_info", "memory_info", "cpu_info", "disk_info", "os_info", "installed_software", "uptime", "boot_time"]
-        for field in required_fields:
-            if field not in data:
-                logging.warning(f"{field} eksik!")
-                return jsonify({"error": f"'{field}' alanı eksik"}), 400
-        # Veritabanına bağlan
-        conn = connect_db()
-        cursor = conn.cursor()
-
-        # Veriyi veritabanına ekleme
+        # Yazılım bilgilerini ekleme
         query_check = "SELECT COUNT(*) FROM software_info WHERE name = %s AND version = %s"
         query_insert = "INSERT INTO software_info (id, name, version) VALUES (%s, %s, %s)"
 
