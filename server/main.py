@@ -172,7 +172,7 @@ def send_device_info():
                 adapter = HTTPAdapter(ssl_context=context)
                 session.mount('https://', adapter)
 
-                response = session.post(url, json=data)
+                response = session.post(url, json=data, verify=False)
                 logging.info(f"Sunucu yanıtı: {response.status_code}, {response.text}")
                 return jsonify({"message": "Veri gönderildi", "status": response.status_code, "response": response.text}), 200
         except requests.exceptions.RequestException as e:
