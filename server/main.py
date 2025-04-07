@@ -101,6 +101,7 @@ CORS(app)
 def receive_device_info():
     try:
         data = request.get_json()  # Gelen JSON verisini al
+        print(data)
         if not data:
             logging.warning("Boş veri alındı!")
             return jsonify({"error": "Veri alınamadı"}), 400
