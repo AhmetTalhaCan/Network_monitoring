@@ -1,6 +1,6 @@
 {
     "server_host": "0.0.0.0",
-    "server_port": 443,
+    "server_port": 5000,
     "db_host": "biomrg5uorif5yzexef3-mysql.services.clever-cloud.com",
     "db_port": 3306,
     "db_user": "us7i8fe3s5nxpeoz",
