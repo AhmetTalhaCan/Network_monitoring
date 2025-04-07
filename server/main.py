@@ -1,4 +1,4 @@
-import json
+zimport json
 import logging
 import os
 from flask import Flask, request, jsonify
@@ -97,50 +97,49 @@ app = Flask(__name__)
 CORS(app)
 
 # POST isteği ile cihaz bilgisi alacak endpoint
+# POST isteği ile cihaz bilgisi alacak endpoint
 @app.route('/receive_device_info', methods=['POST'])
 def receive_device_info():
     try:
         data = request.get_json()  # Gelen JSON verisini al
-        print(data)
+        print(f"Gelen veri: {data}")
         if not data:
-            logging.warning("Boş veri alındı!")
+            print("Boş veri alındı!")
             return jsonify({"error": "Veri alınamadı"}), 400
 
         # Gerekli alanları kontrol et
         required_fields = ["system_info", "memory_info", "cpu_info", "disk_info", "os_info", "installed_software", "uptime", "boot_time"]
         for field in required_fields:
             if field not in data:
-                logging.warning(f"{field} eksik!")
+                print(f"{field} eksik!")
                 return jsonify({"error": f"'{field}' alanı eksik"}), 400    
 
         # Veritabanına bağlan
         conn = get_db_connection()
-        print("Conn:" + conn)
+        print(f"Connection type: {type(conn)}")
         cursor = conn.cursor()
-        print("Cursor:" + cursor)
 
         # MAC adresi ile cihazın olup olmadığını kontrol et
         cursor.execute("SELECT * FROM devices WHERE mac_address = %s", (mac_address,))
         device_exists = cursor.fetchone()
-        logging.info(f"device_exists: {device_exists}")
+        print(f"device_exists: {device_exists}")
 
         if device_exists is not None:
             agent_id = data['agent_id']
+            print(f"Agent ID: {agent_id}")
 
             # Agent ID veritabanında var mı kontrol et
             cursor.execute("SELECT id FROM agent WHERE agent_id = %s", (agent_id,))
             result = cursor.fetchone()
-            print("Result:" + result)
+            print(f"Result: {result}")
 
             if result is None:
                 # Yeni bir agent ID eklemek için INSERT sorgusu
                 cursor.execute("INSERT INTO agent (agent_id) VALUES (%s)", (agent_id,))
                 conn.commit()
-                logging.info(f"Yeni Agent ID ekledi: {agent_id}")
+                print(f"Yeni Agent ID ekledi: {agent_id}")
             else:
-                # Eğer mevcutsa, mevcut agent_id'yi al
-                existing_agent_id = result[0]
-                logging.info(f"Mevcut Agent ID: {existing_agent_id}")
+                print(f"Mevcut Agent ID: {result[0]}")
 
             # Sistem bilgilerini veritabanına ekleyelim
             system_info = data['system_info']
@@ -149,6 +148,7 @@ def receive_device_info():
             (agent_id, system_info['system'], system_info['node_name'], system_info['release'],
             system_info['version'], system_info['machine'], system_info['processor']))
             existing_system_info = cursor.fetchone()
+            print(f"existing_system_info: {existing_system_info}")
 
             if existing_system_info is None:
                 query_system_info = """
@@ -159,15 +159,14 @@ def receive_device_info():
                 system_info['version'], system_info['machine'], system_info['processor'])
                 cursor.execute(query_system_info, system_values)
                 conn.commit()
-                logging.info("Yeni sistem bilgisi eklendi.")
+                print("Yeni sistem bilgisi eklendi.")
             else:
-                logging.info("Sistem bilgisi zaten mevcut.")
+                print("Sistem bilgisi zaten mevcut.")
 
-            # Ek bilgiler eklemek ve commit yapmak için diğer sorgular benzer şekilde yazılabilir.
-            # Diğer bilgiler (memory_info, cpu_info vb.) eklemek için benzer sorguları ekleyin.
-
+            # Diğer bilgiler (memory_info, cpu_info vb.) eklemek için benzer sorguları ekleyebilirsiniz.
+            print("Diğer bilgiler için işlemler yapılabilir.")
         else:
-            logging.warning(f"MAC adresi {mac_address} ile cihaz bulunamadı.")
+            print(f"MAC adresi {mac_address} ile cihaz bulunamadı.")
 
         # Veritabanı bağlantısını kapat
         cursor.close()
@@ -176,13 +175,12 @@ def receive_device_info():
         return jsonify({"message": "Veri başarıyla alındı"}), 200
 
     except mysql.Error as e:
-        logging.error(f"Veritabanı işlemi hatası: {e}")
+        print(f"Veritabanı işlemi hatası: {e}")
         return jsonify({"error": "Veritabanı işlemi hatası"}), 500
 
     except Exception as e:
-        logging.error(f"Bilinmeyen bir hata oluştu: {e}")
+        print(f"Bilinmeyen bir hata oluştu: {e}")
         return jsonify({"error": "Bilinmeyen bir hata oluştu"}), 500
-
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
