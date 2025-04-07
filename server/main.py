@@ -101,7 +101,6 @@ CORS(app)
 def receive_device_info():
     try:
         data = request.get_json()  # Gelen JSON verisini al
-        print(data)
         if not data:
             logging.warning("Boş veri alındı!")
             return jsonify({"error": "Veri alınamadı"}), 400
@@ -115,7 +114,9 @@ def receive_device_info():
 
         # Veritabanına bağlan
         conn = get_db_connection()
+        print("Conn:" + conn)
         cursor = conn.cursor()
+        print("Cursor:" + cursor)
 
         # MAC adresi ile cihazın olup olmadığını kontrol et
         cursor.execute("SELECT * FROM devices WHERE mac_address = %s", (mac_address,))
@@ -128,6 +129,7 @@ def receive_device_info():
             # Agent ID veritabanında var mı kontrol et
             cursor.execute("SELECT id FROM agent WHERE agent_id = %s", (agent_id,))
             result = cursor.fetchone()
+            print("Result:" + result)
 
             if result is None:
                 # Yeni bir agent ID eklemek için INSERT sorgusu
