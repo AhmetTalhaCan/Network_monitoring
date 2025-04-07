@@ -262,4 +262,4 @@ def receive_device_info():
         return jsonify({"message": "Veri başarıyla alındı"}), 200
 
 if __name__ == "__main__":
-    app.run(host=config['server_host'], port=config['server_port'], debug=True)
+    app.run(host=config['server_host'], port=config['server_port'], debug=False)
