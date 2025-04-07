@@ -9,7 +9,7 @@ import psutil
 import ssl
 import requests
 from requests.adapters import HTTPAdapter
-from mysql.connector.pooling import MySQLConnectionPool  # Havuz sınıfını ekledik
+from mysql.connector.pooling import MySQLConnectionPool
 
 # Log ayarları
 logging.basicConfig(filename='server.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
